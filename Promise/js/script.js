@@ -64,3 +64,17 @@
 // .finally(()=>console.log("Fetching end"))
 //------------------------------------------------------------------
 //Promse method
+
+const request = (time) =>{
+  return new Promise((resolve)=>{
+    setTimeout(()=>resolve(),time)
+  })
+}
+  // request(1000).then(()=>console.log("Request 1000 ms"))
+  // request(2000).then(()=>console.log("Request 2000 ms"))
+  // request(3000).then(()=>console.log("Request 3000 ms"))
+
+// Promise.all([request(1000),request(2000),request(3000)]).then(()=>console.log("Request all"))
+Promise.race([request(1000),request(2000),request(3000)]).then(()=>console.log("Request all"))
+
+
