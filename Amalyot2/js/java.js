@@ -275,7 +275,7 @@
 // const arr = [132,23,3,54,65,6];
 // arr.sort((a,b)=>a-b);
 // console.log(arr);
-// //forEach bu callback function bo'lib u har bir massiv elementi uchun ishlaydi
+// forEach bu callback function bo'lib u har bir massiv elementi uchun ishlaydi
 // arr.forEach(function(item, index, arr){
 //   console.log(`${index}: ${item} into arr ${arr}`)
 // })
@@ -714,15 +714,50 @@
 
 // calc(4)
 
+//********************************************************************************************* */
+//Map, filter, reduce.
+
+
+//Map method - yangi massiv qaytaradi eski massivni qiymatini o'zgartirib
+// const car = ["MeRc","bMV","aUDi"]
+
+// const arr = car.map(item=>item.toLowerCase())
+
+// console.log(arr)
+
+
+//Filter method - bu ham yabgi filter massiv qaytaradi.Yani saralab beradi desak ham bo'ladi
+
+// let car = ["mercedes benz" , "bmw" , "audi","rolce royce"]
+// car= car.filter((item)=>item.length<5)
+// console.log(car) 
+
+//SOME/EVERY  method = boolean qiymat qaytaradi 
+
+// const car = [1,"Oybek",true]
+// console.log(car.some((item)=>typeof( item == 'number')))
+// console.log(car.every((item)=>typeof( item == 'boolean')))   
+
+// //REDUCE method = bitta qandaydir qiymat qaytaradi
+// const arr = [3, 55, 34];
+
+//             sum         current
+//             3            55
+//             58           34
+//             sum+current = 90 
+
+// const res = arr.reduce((sum, current) => {return  sum + current},9)
+// console.log(res) // 92
+
+// const car = ['bmw','merc','audi']
+
+// const res = car.reduce((sum,current)=>{return `${sum},${current}`})
+// console.log(res);
 
 
 
 
-
-
-
-
-
+ 
 
 
 
