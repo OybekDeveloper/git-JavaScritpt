@@ -275,7 +275,7 @@
 // const arr = [132,23,3,54,65,6];
 // arr.sort((a,b)=>a-b);
 // console.log(arr);
-// //forEach bu callback function bo'lib u har bir massiv elementi uchun ishlaydi
+// forEach bu callback function bo'lib u har bir massiv elementi uchun ishlaydi
 // arr.forEach(function(item, index, arr){
 //   console.log(`${index}: ${item} into arr ${arr}`)
 // })
