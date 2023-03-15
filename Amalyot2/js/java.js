@@ -714,6 +714,7 @@
 
 // calc(4)
 
+<<<<<<< HEAD
 
 //**************************************************************** */
 //Oddiy iboralar RegExp
@@ -794,10 +795,55 @@
 
 
 
+=======
+//********************************************************************************************* */
+//Map, filter, reduce.
+
+
+//Map method - yangi massiv qaytaradi eski massivni qiymatini o'zgartirib
+// const car = ["MeRc","bMV","aUDi"]
+
+// const arr = car.map(item=>item.toLowerCase())
+
+// console.log(arr)
+
+
+//Filter method - bu ham yabgi filter massiv qaytaradi.Yani saralab beradi desak ham bo'ladi
+
+// let car = ["mercedes benz" , "bmw" , "audi","rolce royce"]
+// car= car.filter((item)=>item.length<5)
+// console.log(car) 
+
+//SOME/EVERY  method = boolean qiymat qaytaradi 
+
+// const car = [1,"Oybek",true]
+// console.log(car.some((item)=>typeof( item == 'number')))
+// console.log(car.every((item)=>typeof( item == 'boolean')))   
+
+// //REDUCE method = bitta qandaydir qiymat qaytaradi
+// const arr = [3, 55, 34];
+
+//             sum         current
+//             3            55
+//             58           34
+//             sum+current = 90 
+
+// const res = arr.reduce((sum, current) => {return  sum + current},9)
+// console.log(res) // 92
+
+// const car = ['bmw','merc','audi']
+
+// const res = car.reduce((sum,current)=>{return `${sum},${current}`})
+// console.log(res);
+>>>>>>> d37ef4ec88300c49f7ed3c21275ae47a57257086
 
 
 
 
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> d37ef4ec88300c49f7ed3c21275ae47a57257086
 
 
 
