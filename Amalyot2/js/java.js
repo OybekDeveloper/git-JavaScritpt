@@ -714,7 +714,6 @@
 
 // calc(4)
 
-<<<<<<< HEAD
 
 //**************************************************************** */
 //Oddiy iboralar RegExp
@@ -772,30 +771,22 @@
 
 
 
-//*********************************************************** */
-    const car ={
-        name:'bmw',
-        color:"black",
-        get carName(){//bu get malumotlarni oladi 
-            return this.name
-        },
-        set carName(name)//set esa malumotlarni oladi 
-        {
-        this.name=name
-        }
-    }
+// //*********************************************************** */
+    // const car ={
+    //     name:'bmw',
+    //     color:"black",
+    //     get carName(){//bu get malumotlarni oladi 
+    //         return this.name
+    //     },
+    //     set carName(name)//set esa malumotlarni oladi 
+    //     {
+    //     this.name=name
+    //     }
+    // }
 
-    console.log(car.carName)
-    console.log(car.carName= 'merc')
+    // console.log(car.carName)
+    // console.log(car.carName= 'merc')
 
-
-
-
-
-
-
-
-=======
 //********************************************************************************************* */
 //Map, filter, reduce.
 
@@ -835,17 +826,6 @@
 
 // const res = car.reduce((sum,current)=>{return `${sum},${current}`})
 // console.log(res);
->>>>>>> d37ef4ec88300c49f7ed3c21275ae47a57257086
-
-
-
-
-<<<<<<< HEAD
-=======
- 
->>>>>>> d37ef4ec88300c49f7ed3c21275ae47a57257086
-
-
 
 
 
