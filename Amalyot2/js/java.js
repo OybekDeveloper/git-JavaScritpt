@@ -715,6 +715,81 @@
 // calc(4)
 
 
+//**************************************************************** */
+//Oddiy iboralar RegExp
+// new RegExp('pattern','flags')//Nu usul ham ish beradi lekin ayni damda manabau usul juda qulay ba oddiy 
+
+// /pattern/flags
+
+
+// const firstName = prompt('What is your name ?', "Name")
+// const regexp = /a/g
+
+// flaglar
+// i =>bu kotta va kichik harflarni ham oladi 
+// g=>butun matn bo'yicha qidiradi 
+
+
+// console.log(firstName.search(regexp))//search matindagi malomotni qidiradi 
+// console.log(firstName.match(regexp))//bu metod bizda flagning qiymatiga qarab masiv qaytaradi 
+
+
+// const password = prompt("You password ")
+
+// console.log(password.replace(/./g,'*'))//replace => bu metod biror bir narsaga o'zgartirish degan manoda ham keladii 
+// console.log(password.replace(/\|/g,"*"))//  \=> bu orqali biz muayyan bir belgini olishimiz mumkin
+
+// const num = '12-32-43-355-23'
+
+// console.log(num.replace(/-/g,":"))
+
+
+// const name = prompt('Name')
+
+// const regexp  = /\D/g
+
+// console.log(name.match(regexp))
+
+// \d-number
+// \w-word
+// \s-space
+
+
+// \D-not a number
+// \W-not a word
+// \S-not a space
+
+
+// const regexp =/Oybek/gi
+
+// if(regexp.test(name))
+// {
+//     alert("Salom Oybek")
+// }else{
+//     alert("Siz admin emassiz")
+// }
+
+
+
+//*********************************************************** */
+    const car ={
+        name:'bmw',
+        color:"black",
+        get carName(){//bu get malumotlarni oladi 
+            return this.name
+        },
+        set carName(name)//set esa malumotlarni oladi 
+        {
+        this.name=name
+        }
+    }
+
+    console.log(car.carName)
+    console.log(car.carName= 'merc')
+
+
+
+
 
 
 
